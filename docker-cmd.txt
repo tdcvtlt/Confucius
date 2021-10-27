@@ -1,0 +1,8 @@
+docker pull ubuntu:21.10
+docker pull mcr.microsoft.com/windows/servercore/iis:windowsservercore-ltsc2019
+docker pull mcr.microsoft.com/windows/servercore:ltsc2022
+
+docker pull mcr.microsoft.com/windows/nanoserver:ltsc2022
+
+docker pull mcr.microsoft.com/mssql/server:2019-latest
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Hung@121212" -p 1433:1433 -d mcr.microsoft.com/mssql/server:2019-latest
