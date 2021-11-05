@@ -1,0 +1,5 @@
+Friday 11/05/2021:
+to clone a repository:
+git clone https://github.com/tdcvtlt/Confucius.git
+after making changes, and push it to the repository
+git push -u origin master
